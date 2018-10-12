@@ -1,4 +1,5 @@
 # Team_sacredgamers_codefundo_MS
+
 Microsoft CodeFunDo++ 2018 Hackathon-Natural Disasters Prediction and Control Systems.
 
 *Predicting natural disasters and calamities by sentiment analysis and automated alert system*
@@ -12,11 +13,13 @@ Microsoft CodeFunDo++ 2018 Hackathon-Natural Disasters Prediction and Control Sy
 Applications of out Tweet crawler - Real time location-wise analysis for natural disasters such as impending stormfalls, famines, diseases, pollution smog, cyclones, hurricanes, water scarcity: Basically everything the public needs to be alerted about.
 
 Tweet Crawler will analyze the rate of increase of keywords tweeted i.e. sentiment analysis:
+
   -Considering the repeated tweets by the same individual only if they are separated by a particular time interval threshold.
+  
   -Considering only those tweets whose id was created at least three hours ago, in order to filter spam. 
-  -More based on further refinements and tweaks. 
   
-  A dashboard will be present wherein major updates will be displayed. Notifications will be sent to people who’ve signed up, including but not limited to email alerts. We will alerts to subscribed users as well as to all of the available rescue teams and government authorities in case of a level 3 or higher level warning.(B2B and B2C)
+  -More accurate considerations based on further refinements and research. 
   
-Technologies Used:
-| MongoDB | Node.js | GitHub | Microsoft Azure | State-of-the-art NLP and ML Algorithms | 
+  A dashboard will be present wherein major updates will be displayed. Notifications will be sent to people who’ve signed up, including but not limited to email alerts. We will send alerts to subscribed users as well as to all of the available rescue teams and government authorities in case of a moderate, serious or severe level warning. This idea can be converted into a sustainable business model (B2B and B2C) as well. 
+  
+Technologies Used - MongoDB | Node.js | GitHub | Microsoft Azure | State-of-the-art NLP and ML Algorithms. 
