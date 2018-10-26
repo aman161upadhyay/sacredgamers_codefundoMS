@@ -1,0 +1,96 @@
+Traceback (most recent call last):
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 137, in <module>
+    main()
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 108, in main
+    pos,neg = find(city)
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 57, in find
+    iterator = t.statuses.filter(track=city, language="en")
+  File "/usr/local/lib/python2.7/dist-packages/twitter/api.py", line 334, in __call__
+    return self._handle_response(req, uri, arg_data, _timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 288, in _handle_response
+    _timeout or timeout, heartbeat_timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 213, in handle_stream_response
+    raise TwitterHTTPError(e, uri, 'json', arg_data)
+twitter.api.TwitterHTTPError: Twitter sent status 420 for URL: 1.1/statuses/filter.json using parameters: (language=en&oauth_consumer_key=Jw1rUipyiUZnIaJBTAawMDDFk&oauth_nonce=3429831262030344091&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1540559813&oauth_token=1051698216943550465-t6GwP9uoXLn6ACR6xNPjaLY2JKFNLA&oauth_version=1.0&track=Chennai&oauth_signature=eisZRzHp6Q1n89lYAI%2FceY1hUtY%3D)
+details: Exceeded connection limit for user
+
+Traceback (most recent call last):
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 137, in <module>
+    main()
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 108, in main
+    pos,neg = find(city)
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 57, in find
+    iterator = t.statuses.filter(track=city, language="en")
+  File "/usr/local/lib/python2.7/dist-packages/twitter/api.py", line 334, in __call__
+    return self._handle_response(req, uri, arg_data, _timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 288, in _handle_response
+    _timeout or timeout, heartbeat_timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 213, in handle_stream_response
+    raise TwitterHTTPError(e, uri, 'json', arg_data)
+twitter.api.TwitterHTTPError: Twitter sent status 420 for URL: 1.1/statuses/filter.json using parameters: (language=en&oauth_consumer_key=Jw1rUipyiUZnIaJBTAawMDDFk&oauth_nonce=17066430104147976610&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1540559845&oauth_token=1051698216943550465-t6GwP9uoXLn6ACR6xNPjaLY2JKFNLA&oauth_version=1.0&track=Chennai&oauth_signature=Nr4i0YdEz3QRu1A1ue4LQLRsWCY%3D)
+details: Exceeded connection limit for user
+
+Traceback (most recent call last):
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 137, in <module>
+    main()
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 108, in main
+    pos,neg = find(city)
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 57, in find
+    iterator = t.statuses.filter(track=city, language="en")
+  File "/usr/local/lib/python2.7/dist-packages/twitter/api.py", line 334, in __call__
+    return self._handle_response(req, uri, arg_data, _timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 288, in _handle_response
+    _timeout or timeout, heartbeat_timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 213, in handle_stream_response
+    raise TwitterHTTPError(e, uri, 'json', arg_data)
+twitter.api.TwitterHTTPError: Twitter sent status 420 for URL: 1.1/statuses/filter.json using parameters: (language=en&oauth_consumer_key=Jw1rUipyiUZnIaJBTAawMDDFk&oauth_nonce=6354184201247215213&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1540559863&oauth_token=1051698216943550465-t6GwP9uoXLn6ACR6xNPjaLY2JKFNLA&oauth_version=1.0&track=Chennai&oauth_signature=GZRgsVVYv9Ep2xwnKpllbXSwlh4%3D)
+details: Easy there, Turbo. Too many requests recently. Enhance your calm.
+
+Traceback (most recent call last):
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 137, in <module>
+    main()
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 108, in main
+    pos,neg = find(city)
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 57, in find
+    iterator = t.statuses.filter(track=city, language="en")
+  File "/usr/local/lib/python2.7/dist-packages/twitter/api.py", line 334, in __call__
+    return self._handle_response(req, uri, arg_data, _timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 288, in _handle_response
+    _timeout or timeout, heartbeat_timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 213, in handle_stream_response
+    raise TwitterHTTPError(e, uri, 'json', arg_data)
+twitter.api.TwitterHTTPError: Twitter sent status 420 for URL: 1.1/statuses/filter.json using parameters: (language=en&oauth_consumer_key=Jw1rUipyiUZnIaJBTAawMDDFk&oauth_nonce=14519870325799093347&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1540559865&oauth_token=1051698216943550465-t6GwP9uoXLn6ACR6xNPjaLY2JKFNLA&oauth_version=1.0&track=Mumbai&oauth_signature=%2BM%2Bj1sXAPMCJgrUg50tarvkZ4YE%3D)
+details: Easy there, Turbo. Too many requests recently. Enhance your calm.
+
+Traceback (most recent call last):
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 137, in <module>
+    main()
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 108, in main
+    pos,neg = find(city)
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 57, in find
+    iterator = t.statuses.filter(track=city, language="en")
+  File "/usr/local/lib/python2.7/dist-packages/twitter/api.py", line 334, in __call__
+    return self._handle_response(req, uri, arg_data, _timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 288, in _handle_response
+    _timeout or timeout, heartbeat_timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 213, in handle_stream_response
+    raise TwitterHTTPError(e, uri, 'json', arg_data)
+twitter.api.TwitterHTTPError: Twitter sent status 420 for URL: 1.1/statuses/filter.json using parameters: (language=en&oauth_consumer_key=Jw1rUipyiUZnIaJBTAawMDDFk&oauth_nonce=16558261946589952154&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1540559869&oauth_token=1051698216943550465-t6GwP9uoXLn6ACR6xNPjaLY2JKFNLA&oauth_version=1.0&track=Mumbai&oauth_signature=NO7%2FNprZhypCQ%2BEF3pOjpxqlAYw%3D)
+details: Easy there, Turbo. Too many requests recently. Enhance your calm.
+
+Traceback (most recent call last):
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 137, in <module>
+    main()
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 108, in main
+    pos,neg = find(city)
+  File "/var/www/codefundo/codefundo/tweet_extracter.py", line 57, in find
+    iterator = t.statuses.filter(track=city, language="en")
+  File "/usr/local/lib/python2.7/dist-packages/twitter/api.py", line 334, in __call__
+    return self._handle_response(req, uri, arg_data, _timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 288, in _handle_response
+    _timeout or timeout, heartbeat_timeout)
+  File "/usr/local/lib/python2.7/dist-packages/twitter/stream.py", line 213, in handle_stream_response
+    raise TwitterHTTPError(e, uri, 'json', arg_data)
+twitter.api.TwitterHTTPError: Twitter sent status 420 for URL: 1.1/statuses/filter.json using parameters: (language=en&oauth_consumer_key=Jw1rUipyiUZnIaJBTAawMDDFk&oauth_nonce=637634015692308111&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1540559872&oauth_token=1051698216943550465-t6GwP9uoXLn6ACR6xNPjaLY2JKFNLA&oauth_version=1.0&track=Mumbai&oauth_signature=gijN9Brd%2BK%2BPVCujxbdITWm8%2BQM%3D)
+details: Easy there, Turbo. Too many requests recently. Enhance your calm.
+

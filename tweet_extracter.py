@@ -106,7 +106,7 @@ def main():
             temp = []
             temp.append(city)
             pos,neg = find(city)
-            print(city)
+            #print(city)
             for disaster in disasters:
                 if(pos[disaster] > dec_dic[city][disaster]):
                     temp.append("decreasing")
@@ -127,8 +127,8 @@ def main():
                 dec_dic[city][disaster] = pos[disaster]
 
             rows.append(temp)
-            print(city)
-        with open('result.csv',"w+") as file:
+            #print(city)
+        with open('/var/www/codefundo/codefundo/result.csv',"w+") as file:
             wr=csv.writer(file)
             wr.writerows(rows)
 
