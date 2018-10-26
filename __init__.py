@@ -4,8 +4,7 @@ import csv
 app = Flask(__name__)
 from flask_mail import Mail, Message
 app.secret_key = 'tSd1zNl8ElzjpAZ0fcQ!7RpejAG3eGD3'
-cities = ["Mumbai","Pune","Bengaluru","Chennai","Kolkata","Hyderabad","NCR","Delhi","Chandigarh","Lucknow","Patna","Varanasi","Guwahati","Ranchi","New Delhi"]
-
+cities = ["Mumbai","Chennai","Kolkata","Delhi"]
 @app.route('/success/<city>')
 def success(city):
    index = cities.index(city)

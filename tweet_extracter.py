@@ -90,7 +90,8 @@ def main():
 
     disasters = ["Flood","Tsunami","Earthquake","Rain","Cyclone","Storm","Hurricane","Landslide","Waves","Famine","Violence","Riot"]
     
-    cities = ["Mumbai","Chennai","Kolkata","Delhi","Lucknow","Ranchi"]
+    cities = ["Mumbai","Chennai","Kolkata","Delhi"]
+    
     for city in cities:
         for disaster in disasters:
             new_dic[city][disaster] = 0
@@ -126,7 +127,7 @@ def main():
                 dec_dic[city][disaster] = pos[disaster]
 
             rows.append(temp)
-
+            print(city)
         with open('result.csv',"w+") as file:
             wr=csv.writer(file)
             wr.writerows(rows)
