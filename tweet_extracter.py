@@ -56,7 +56,7 @@ def find(city):
     
     iterator = t.statuses.filter(track=city, language="en")
     
-    count = 10
+    count = 50
     rows=[]
     missed=0
     for tweet in iterator:
@@ -115,9 +115,9 @@ def main():
                 else:
                     temp.append("Almost constant")
 
-                if(neg[disaster] > 1.8*new_dic[city][disaster]):
+                if(neg[disaster] > 40):
                     temp.append("High Risk")
-                elif(neg[disaster] > 1.4*new_dic[city][disaster]):
+                elif(neg[disaster] > 15):
                     temp.append("Moderate Risk")
 
                 else:
