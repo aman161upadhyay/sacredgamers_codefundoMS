@@ -9,7 +9,7 @@ cities = ["Mumbai","Chennai","Kolkata","Delhi"]
 def success(city):
    index = cities.index(city)
    temp = 0
-   with open('result.csv',"r") as file:
+   with open('/var/www/codefundo/codefundo/result.csv',"r") as file:
       rd = csv.reader(file)
       for item in rd:
          if(temp == index):
@@ -22,7 +22,7 @@ def setcity():
 
    if(request.args.get('city')):
       city = request.args.get('city')
-      resp = make_response(redirect(url_for('success',city = city)))
+      resp = make_response(redirect(url_for('success',_external=True,city = city)))
       resp.set_cookie('city', city)
       return resp
 
@@ -34,11 +34,11 @@ def index():
 	 
 	if not request.cookies.get('city'):
 		return render_template('login.html')
-	return redirect(url_for('success',city = request.cookies.get('city')))
+	return redirect(url_for('success',_external=True,city = request.cookies.get('city')))
 
 @app.route('/logout')
 def logout():
-   resp = make_response(redirect(url_for('success',city = city)))
+   resp = make_response(redirect(url_for('index')))
    resp.set_cookie('city', '', expires=0)
    return resp
 
