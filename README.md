@@ -1,4 +1,4 @@
-# Team_sacredgamers_codefundo_MS
+# Natural Disasters Prediction and Control Systems
 
 Microsoft CodeFunDo++ 2018 Hackathon-Natural Disasters Prediction and Control Systems.
 
